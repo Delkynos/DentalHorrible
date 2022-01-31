@@ -1,0 +1,185 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body{
+    background-color: blanchedalmond;
+  }
+  
+  .encabezado-pagina {
+    background: linear-gradient(rgba(48, 113, 252, 0.9), rgba(48, 113, 252, 0.6)),
+      url("https://www.topdoctors.mx/files/Image/large/62f92b37fe89104334eaa045606dc271.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+  }
+  
+  .M-menu {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .logo {
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .izquierda {
+    padding-right: 20px;
+  }
+  
+  .texto-logo {
+    justify-content: flex-start;
+    padding-right: 100px;
+  }
+  
+  .lista-menu {
+    display: flex;
+    flex-direction: row;
+    margin-left: 5px;
+  }
+  
+  li {
+    color: #ffffff;
+    list-style: none;
+    padding: 15px 5px;
+  }
+
+  .contenedor{
+      display: flex;
+      justify-content: center;
+      margin-left: 200px;
+      flex-direction: column;
+      
+      
+  }
+
+  
+
+  .ImagenPrueba{
+    width: 700px;
+    height:350px;
+    
+  }
+
+  .texto-encima{
+      position: absolute;
+      top: 50px;
+      left: 5%;
+      font-size: 24px;
+  }
+
+  .texto_encima{
+    position: absolute;
+    top: 80px;
+    left: 5%;
+    font-size: 24px;
+    color: black;
+}
+
+.boton2{
+
+  position: absolute;
+  top: 220px;
+  left: 550px;
+
+}
+
+  .SegundoTexto{
+    margin-left: 50px;
+    font-size: 18px;
+    text-align: start;
+    margin-top: 10px;
+  }
+
+  .TercerTexto{
+
+    margin-right: 50px;
+    font-size: 18px;
+    text-align: end;
+    margin-top: 10px;
+
+  }
+
+  
+  .parrafo {
+    color: black;
+    font-size: 1.2rem;
+  }
+
+  .Caja{
+    position: relative;
+    display: inline-block;
+    margin-bottom: 3px;
+    margin-left: 150px;
+}
+
+.Caja1{
+  display: flex;
+  flex-direction: row; 
+  margin-left: 150px;
+  margin-bottom: 3px;
+  background-color: burlywood;
+  width: 700px;
+}
+
+.Caja2{
+
+  display: flex;
+  flex-direction: row-reverse; 
+  margin-bottom: 3px;
+  background-color: beige;
+  width: 700px;
+  margin-left: 150px;
+
+}
+
+.SegundaImagen{
+  width: 200px;
+  height:350px;
+}
+
+.TerceraImagen{
+
+  width: 200px;
+  height:350px;
+
+}
+
+.BotonLeer{
+  position: absolute;
+  left: 400px;
+  top: 1300px;
+
+}
+
+.contenedorFotter{
+  display: flex;
+  flex-direction: row;
+  padding-left: 350px;
+
+}
+
+.ListasFooter{
+
+  color: #0a0a0a;
+    list-style: none;
+    padding-left: 30px;
+
+}
+
+.TextoFinal{
+
+  padding-left: 80px;
+  padding-top: 80px;
+
+}
+
+
+
+
+
